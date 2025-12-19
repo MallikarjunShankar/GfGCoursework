@@ -17,6 +17,10 @@ Each folder corresponds to a specific **programming language** or **course** on 
 - **Week 1:** Basic syntax, data types, input/output, and conditional statements.  
   File: [`C++/WeekOne.cpp`](C++/WeekOne.cpp)
 
+### C Course
+- **Week 1:** Fundamental concepts, loops, conditionals, string handling, and basic arithmetic operations.  
+  File: [`C/WeekOne.c`](C/WeekOne.c)
+
 ---
 
 ## Tools & Environment
