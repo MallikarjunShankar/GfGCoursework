@@ -22,9 +22,12 @@ Each folder corresponds to a specific **programming language** or **course** on 
 - **Week 1:** Fundamental concepts, loops, conditionals, string handling, and basic arithmetic operations.
 
   File: [`C/WeekOne.c`](C/WeekOne.c)
-- **Week 2:** Functions, recursion, pointers basics, arrays, strings, advanced pointer concepts.
+- **Week 2:** Functions, recursion, pointers basics, arrays, strings and advanced pointer concepts.
 
   File:  [`C/WeekTwo.c`](C/WeekTwo.c)
+- **Week 3:** Dynamic memory allocation, linked lists, trees, graphs, stack, queue and structs.
+
+  File:  [`C/WeekThree.c`](C/WeekThree.c)
 
 ---
 
