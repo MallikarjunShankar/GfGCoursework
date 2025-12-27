@@ -30,7 +30,7 @@ The user enters a choice, performs the desired action, and the menu repeats unti
 
 ## Code Structure
 
-- `SeatBookingSystem.cpp`: Contains the complete source code for the seat booking system
+- `WeekTwo.cpp`: Contains the complete source code for the seat booking system
 
 ### Functions
 
@@ -113,43 +113,6 @@ Exiting...
 
 ---
 
-## Known Issues and Limitations
-
-### Current Issues
-
-1. **No Bounds Checking**: The program does not validate that user input indices are within 0–7, which can cause undefined behavior if out-of-bounds indices are accessed
-
-2. **No Input Validation**: Non-integer inputs for menu choices or seat coordinates are not handled, which can cause program failure or infinite loops
-
-3. **Multiple Seat Booking Edge Cases**: In `bookSeats()`, there is no validation that `colStart <= colEnd` or that both are within valid bounds
-
-### Recommended Improvements
-
-Add an index validation function:
-```cpp
-bool isValidIndex(int row, int col) {
-    return row >= 0 && row < 8 && col >= 0 && col < 8;
-}
-```
-
-Add input error handling:
-```cpp
-if (!isValidIndex(row, col)) {
-    cout << "Invalid seat position. Please enter values between 0 and 7.\n";
-    return;
-}
-```
-
-Validate range in `bookSeats()`:
-```cpp
-if (row < 0 || row >= 8 || colStart < 0 || colEnd >= 8 || colStart > colEnd) {
-    cout << "Invalid range.\n";
-    return;
-}
-```
-
----
-
 ## Conversion Formulas and Logic
 
 - **Seat State**: 0 = available, 1 = booked
@@ -158,12 +121,4 @@ if (row < 0 || row >= 8 || colStart < 0 || colEnd >= 8 || colStart > colEnd) {
 
 ---
 
-## Future Enhancements
 
-- Add persistent storage (file I/O) to save bookings between sessions
-- Implement a user authentication system
-- Add pricing and payment processing
-- Display seat layout with row/column labels for better readability
-- Implement seat selection by price category (economy, premium, VIP)
-- Add booking history and receipt generation
-- Implement concurrent bookings with thread safety
