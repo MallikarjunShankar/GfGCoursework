@@ -17,6 +17,9 @@ Each folder corresponds to a specific **programming language** or **course** on 
 - **Week 1:** Basic syntax, data types, input/output, and conditional statements.  
 
   File: [`C++/WeekOne.cpp`](C++/WeekOne.cpp)
+- **Week 2:** Functions, references, arrays, and two-dimensional arrays.  
+
+  File: [`C++/WeekTwo.cpp`](C++/WeekTwo.cpp)
 
 ### C Course
 - **Week 1:** Fundamental concepts, loops, conditionals, string handling, and basic arithmetic operations.
@@ -34,7 +37,7 @@ Each folder corresponds to a specific **programming language** or **course** on 
 ## Tools & Environment
 - **IDE:** Visual Studio Code  
 - **Compiler:** GCC (via MinGW)  
-- **Language Standard:** C++17  
+- **Language Standard:** C++17, C17
 - **Version Control:** Git & GitHub  
 
 ---
